@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/newPagePost" method="post">
+    <label for="userId">아이디 : </label>
+    <input type="text" id="userId" name="userId">
+    <label for="userName">이름 : </label>
+    <input type="text" id="userName" name="userName">
+    <label for="address">주소 : </label>
+    <input type="text" id="address" name="address">
+    <button type="submit">page 이동</button>
+</form>
+
+</body>
+</html>
+
+
+<!-- MainController 에서 /test URL 로 연결되는 화면\
+컨트롤러(MainController.newPagePost)에서 데이터를 받아서 newPage.html 에 표시
+-->
+
+<!--<!DOCTYPE html>          -> 이 문서가 HTML5 문서임을 선언
+<html lang="en" xmlns:th="http://www.thymeleaf.org">       -> HTML 문서 시작, 영어로 언어 설정, Thymeleaf 문법(th: …)도 쓸 수 있게 선언
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>                         -> 문서 정보(메타데이터) 부분이고, UTF-8 인코딩과 브라우저 탭 제목 지정
+<body>
+<form action="/newPagePost" method="post">       -> 폼(form) 시작이고, 입력된 데이터를 POST 방식으로 /newPagePost 주소로 전송한다는 의미   , 사용자가 입력한 값들이 MainController 의 @PostMapping("/newPagePost") 메서드로 넘어감
+    <label for="userId">아이디 : </label>
+    <input type="text" id="userId" name="userId">            -> 아이디 입력 칸     , Controller 의 @RequestParam("userId")랑 연결
+    <label for="userName">이름 : </label>
+    <input type="text" id="userName" name="userName">        -> 이름 입력 칸     , @RequestParam("userName")으로 받음
+    <label for="address">주소 : </label>
+    <input type="text" id="address" name="address">             -> 주소 입력 칸     , @RequestParam("address") 로 받음
+    <button type="submit">page 이동</button>                   -> 폼 제출 버튼 누르면 입력한 값들이 /newPagePost 로 POST 전송
+</form>
+
+</body>
+</html>                                  -> 폼과 HTML 문서가 끝났음을 알리는 표시
+
+
+
+
+-->

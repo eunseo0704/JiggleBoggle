@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:text="${userName}"></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- 스트링부트에서 쓰이는 뷰(html 페이지)야
+<!DOCTYPE html>     -> HTML5 문서라는 걸 선언
+<html lang="en" xmlns:th="http://www.thymeleaf.org">        -> HTML 문서의 시작 , 언어 영어로 지정, Thymeleaf 문법을 쓸 수 있게 선언
+<head>        -> 문서의 정보를 담는 시작
+<meta charset="UTF-8">             -> 문서의 글자 인코딩을 UTF-8로 지정해서 한글이나 특수문자가 깨지지 않게 함
+  <title>Title</title>       -> 브라우저 탭에 보이는 제목 지정
+ </head>   -> head 영역 끝
+ <body>      -> 사용자에게 실제로 보이는 화면
+ <h1 th:text="${userName}"></h1>    -> 백엔드에서 전달받은 userName 을 큰 제목(h1)으로 출력
+</body>  -> body 끝
+</html>   -> html 끝
+
+-->

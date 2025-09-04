@@ -1,0 +1,194 @@
+2025-09-03T08:23:45.099+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:23:45.108+09:00  INFO 50628 --- [demo] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:23:45.110+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:23:45.149+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:23:45.150+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:23:45.203+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:23:45.228+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:23:45.228+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:23:45.228+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:23:45.231+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:23:45.231+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 81 ms
+2025-09-03T08:23:45.282+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:23:45.285+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:23:45.289+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:23:45.291+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.151 seconds (process running for 6672.035)
+2025-09-03T08:23:45.291+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:23:58.814+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (1 addition, 1 deletion, 4 modifications)
+2025-09-03T08:23:58.817+09:00  INFO 50628 --- [demo] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:23:58.820+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:23:58.859+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:23:58.859+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:23:58.905+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:23:58.923+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:23:58.924+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:23:58.924+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:23:58.926+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:23:58.927+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 67 ms
+2025-09-03T08:23:58.965+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:23:58.967+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:23:58.971+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:23:58.973+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.12 seconds (process running for 6685.718)
+2025-09-03T08:23:58.973+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:27:49.124+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:27:49.128+09:00  INFO 50628 --- [demo] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:27:49.130+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:27:49.179+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:27:49.179+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:27:49.230+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:27:49.251+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:27:49.251+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:27:49.251+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:27:49.255+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:27:49.255+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-09-03T08:27:49.307+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:27:49.309+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:27:49.315+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:27:49.317+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.145 seconds (process running for 6916.076)
+2025-09-03T08:27:49.317+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:28:30.032+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:28:30.039+09:00  INFO 50628 --- [demo] [Thread-39] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:28:30.041+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:28:30.091+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:28:30.091+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:28:30.145+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:28:30.168+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:28:30.168+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:28:30.168+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:28:30.171+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:28:30.171+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 79 ms
+2025-09-03T08:28:30.211+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:28:30.213+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:28:30.218+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:28:30.219+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.138 seconds (process running for 6956.98)
+2025-09-03T08:28:30.219+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:28:33.640+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:28:33.640+09:00  INFO 50628 --- [demo] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:28:33.642+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:28:33.679+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:28:33.679+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:28:33.715+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:28:33.727+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:28:33.727+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:28:33.727+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:28:33.729+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:28:33.729+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50 ms
+2025-09-03T08:28:33.773+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:28:33.775+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:28:33.779+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:28:33.781+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.108 seconds (process running for 6960.542)
+2025-09-03T08:28:33.781+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:29:41.704+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:29:41.707+09:00  INFO 50628 --- [demo] [Thread-47] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:29:41.710+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:29:41.761+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:29:41.761+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:29:41.829+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:29:41.864+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:29:41.865+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:29:41.865+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:29:41.870+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:29:41.870+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2025-09-03T08:29:41.967+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:29:41.971+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:29:41.978+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:29:41.979+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.226 seconds (process running for 7028.745)
+2025-09-03T08:29:41.980+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:29:50.437+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:29:50.441+09:00  INFO 50628 --- [demo] [Thread-51] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:29:50.447+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:29:50.497+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:29:50.497+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:29:50.560+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:29:50.583+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:29:50.584+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:29:50.584+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:29:50.588+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:29:50.588+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 90 ms
+2025-09-03T08:29:50.643+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:29:50.647+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:29:50.652+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:29:50.654+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.164 seconds (process running for 7037.42)
+2025-09-03T08:29:50.655+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:30:19.291+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:30:19.295+09:00  INFO 50628 --- [demo] [Thread-55] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:30:19.297+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:30:19.347+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:30:19.348+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:30:19.409+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:30:19.432+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:30:19.433+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:30:19.433+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:30:19.436+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:30:19.436+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 88 ms
+2025-09-03T08:30:19.491+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:30:19.493+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:30:19.500+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:30:19.502+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.162 seconds (process running for 7066.27)
+2025-09-03T08:30:19.503+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:30:49.129+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:30:49.131+09:00  INFO 50628 --- [demo] [Thread-59] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:30:49.134+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:30:49.170+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:30:49.170+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:30:49.212+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:30:49.230+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:30:49.230+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:30:49.230+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:30:49.233+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:30:49.233+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2025-09-03T08:30:49.304+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:30:49.308+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:30:49.318+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:30:49.321+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.157 seconds (process running for 7096.091)
+2025-09-03T08:30:49.322+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:31:00.781+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:31:00.782+09:00  INFO 50628 --- [demo] [Thread-63] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:31:00.784+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:31:00.841+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:31:00.841+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:31:00.917+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:31:00.942+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:31:00.943+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:31:00.943+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:31:00.947+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:31:00.947+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2025-09-03T08:31:01.007+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:31:01.010+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:31:01.015+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:31:01.017+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.192 seconds (process running for 7107.787)
+2025-09-03T08:31:01.018+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:34:45.068+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:34:45.073+09:00  INFO 50628 --- [demo] [Thread-67] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:34:45.081+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:34:45.142+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:34:45.142+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:34:45.189+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:34:45.210+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:34:45.210+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:34:45.210+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:34:45.213+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:34:45.213+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 70 ms
+2025-09-03T08:34:45.252+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:34:45.254+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:34:45.258+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:34:45.259+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.123 seconds (process running for 7332.043)
+2025-09-03T08:34:45.260+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:46:17.945+09:00  INFO 50628 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-09-03T08:46:17.950+09:00  INFO 50628 --- [demo] [Thread-71] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:46:17.955+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-03T08:46:18.011+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24 with PID 50628 (/Users/gungoguma/Desktop/Lec2507/demo/build/classes/java/main started by gungoguma in /Users/gungoguma/Desktop/Lec2507/demo)
+2025-09-03T08:46:18.011+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-03T08:46:18.093+09:00  WARN 50628 --- [demo] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2025-09-03T08:46:18.122+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2025-09-03T08:46:18.124+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-03T08:46:18.124+09:00  INFO 50628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-03T08:46:18.128+09:00  INFO 50628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-03T08:46:18.128+09:00  INFO 50628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2025-09-03T08:46:18.203+09:00  INFO 50628 --- [demo] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-03T08:46:18.207+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-03T08:46:18.212+09:00  INFO 50628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2025-09-03T08:46:18.215+09:00  INFO 50628 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.217 seconds (process running for 8022.914)
+2025-09-03T08:46:18.215+09:00  INFO 50628 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-03T08:46:18.590+09:00  INFO 50628 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-03T08:46:18.591+09:00  INFO 50628 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
