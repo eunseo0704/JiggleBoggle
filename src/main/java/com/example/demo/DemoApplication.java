@@ -14,8 +14,17 @@ public class DemoApplication {
 
 
 
+/* 서버 실행
+main() 메서드에서 SpringApplication.run()을 호출하면 스프링 부트가 프로젝트 전체 로드, 컨트롤러와 설정 파일들이 동작할 준비를 마침
+*
+* */
 
-// Spring Boot의 메인 실행 클래스
+
+
+
+
+
+// Spring Boot 의 메인 실행 클래스
 
 /*package com.example.demo;         -> DemoApplication 클래스가 com.example.demo 패키지 안에 있다는 걸 선언
 

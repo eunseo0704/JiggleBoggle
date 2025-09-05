@@ -1,3 +1,8 @@
+/* 사용자가 /test 페이지를 요청하면 요청 받아서 처리
+GET 요청이면 단순히 해당 페이지를 보여줌 POST 요청이면 사용자가 입력한 데이터를 모델(Model)에 담아 다른 페이지로 전달
+* */
+
+
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;

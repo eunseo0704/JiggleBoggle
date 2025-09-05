@@ -12,6 +12,8 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 }
 
+/* 외부 서버에 배포할 때 DemoApplication 을 기준으로 앱 실행 도움
+* */
 
 
 /*package com.example.demo;            -> ServletInitializer 클래스가 com.example.demo 패키지 안에 속해 있다는 선언
