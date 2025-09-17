@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>회원가입 페이지</title>
+    <meta charset="UTF-8" content="text/html;charest=UTF-8">
+</head>
+<body th:align="center">
+
+<form id="inputForm" name="inputForm" action="/signUpUserData" th:object="${userVO}" method="post">
+
+    <label for="userId">아이디 : </label>
+    <input type="text" id="userId" name="userId" th:value="${userVO.userId}"><br>
+
+    <label for="userName">이름 : </label>
+    <input type="text" id="userName" name="userName" th:value="${userVO.userName}"><br>
+
+    <label for="userNickName">닉네임 : </label>
+    <input type="text" id="userNickName" name="userNickName" th:value="${userVO.userNickName}"><br>
+
+    <label for="userPswd">패스워드 : </label>
+    <input type="text" id="userPswd" name="userPswd" th:value="${userVO.userPswd}"><br>
+
+    <label for="userMail">메일 : </label>
+    <input type="text" id="userMail" name="userMail" th:value="${userVO.userMail}"><br>
+    <button type="submit">회원가입</button>
+
+</form>
+
+</body>
+</html>

@@ -5,6 +5,7 @@ GET 요청이면 단순히 해당 페이지를 보여줌 POST 요청이면 사�
 
 package com.example.demo.controller;
 
+import com.example.demo.domain.UserVO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -46,7 +47,34 @@ public class MainController {
 
         return "newPage";
     }
+
+    @GetMapping("/signUp")
+    public String signUp(UserVO userVO, Model model) {
+
+        model.addAttribute("userVO", userVO);
+
+        return "join/signUpPage";
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* package com.example.demo.controller;     -> MainController 가 com.example.demo.controller 패키지 안에 속해 있다는 선언

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.Mapper.UserMapper">
+
+
+    <insert id="setSignUp" parameterType="com.example.demo.domain.UserVO" >
+
+        insert into user_master(
+                    USER_ID
+                   ,USER_NAME
+                   ,USER_PSWD
+                   ,USER_MAIL
+                   ,USER_TEL
+                   ,USER_NICK_NAME
+            ) values (
+                    #{userId}
+                    ,#{userName}
+                    ,#{userPswd}
+                    ,#{userMail}
+                    ,#{userTel}
+                    ,#{userNickName}
+                    )
+
+
+
+    </insert>
+
+</mapper>
